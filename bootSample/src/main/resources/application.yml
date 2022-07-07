@@ -1,0 +1,15 @@
+spring:
+
+  # DB 세팅
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/bootSample
+    username: root
+    password: root
+  
+  #JSP 세팅
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+    static-path-pattern: /resources/**
